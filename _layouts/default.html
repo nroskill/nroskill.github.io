@@ -6,13 +6,12 @@
   <body>
       <div class="outer">
         {% include header.html %}
-
         <div class="page-content">
           <div class="wrapper">
             {{ content }}
           </div>
         </div>
-
+        <div class="return" title="返回顶部" style="display: block;" onclick="document.location='#';"></div>
         {% include footer.html %}
       </div>
   </body>
