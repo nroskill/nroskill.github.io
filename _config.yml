@@ -1,1 +1,11 @@
-theme: jekyll-theme-cayman
+title: Nroskill's Blog
+email: nroskill@gmail.com
+description:  C/C++/CSharp/Python/SQL
+baseurl: ""
+url: "https://nroskill.github.io/" # the base hostname & protocol for your site
+twitter_username: nroskill
+github_username:  nroskill
+permalink: /:year/:month/:day/:title
+
+# Build settings
+markdown: kramdown
