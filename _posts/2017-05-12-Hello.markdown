@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Hello
-author: Nroskill
+author: Gizeta
 date:   2017-05-12
 categories: 杂谈
 ---
