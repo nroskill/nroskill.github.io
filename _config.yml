@@ -10,6 +10,9 @@ permalink: /:title
 gems: [jekyll-paginate]
 # markdown解析器
 markdown: kramdown
+# google analytics
+google_analytics: UA-33809015-2
+
 # 分页
 # paginate: 2
 # 代码高亮
