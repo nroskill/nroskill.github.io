@@ -7,12 +7,10 @@ github_username:  nroskill
 # 链接格式
 permalink: /:categories/:title
 # 插件
-gems : [jekyll-paginate]
+gems: [jekyll-paginate]
+# markdown解析器
+markdown: kramdown
 # 分页
 # paginate: 2
 # 代码高亮
 # highlighter: pygments
-
-
-# Build settings
-markdown: kramdown
