@@ -1,11 +1,18 @@
 title: Nroskill's Blog
-email: nroskill@gmail.com
-description:  C/C++/CSharp/Python/SQL
 baseurl: ""
-url: "https://nroskill.github.io/" # the base hostname & protocol for your site
+url: "https://nroskill.github.io/"
+email: nroskill@gmail.com
 twitter_username: nroskill
 github_username:  nroskill
-permalink: /:year/:month/:day/:title
+# 链接格式
+permalink: /:categories/:title
+# 插件
+gems : [jekyll-paginate]
+# 分页
+# paginate: 2
+# 代码高亮
+# highlighter: pygments
+
 
 # Build settings
 markdown: kramdown

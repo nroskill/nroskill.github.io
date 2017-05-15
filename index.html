@@ -4,9 +4,50 @@ layout: default
 
 <div class="home">
  <div class="top card">
-    <a class="email" href="mailto:{{site.email}}">{{site.email}}</a>
-    <p class="description">{{ site.description }}</p>
-    <a href="about" class="btn">Read More</a>
+    <div class="text-center">
+      <ul class="list-inline">
+        {% if site.github_username %}
+        <li>
+          <a class="btn btn-default btn-sm" href="https://github.com/{{ site.github_username }}">
+            <i class="fa fa-github-alt fa-lg"></i>
+          </a>
+        </li>
+        {% endif %}
+        {% if site.twitter_username %}
+        <li>
+          <a class="btn btn-default btn-sm" href="https://twitter.com/{{ twitter_username }}">
+            <i class="fa fa-twitter fa-lg"></i>
+          </a>
+        </li>
+        {% endif %}
+        {% if site.email %}
+        <li>
+          <a class="btn btn-default btn-sm" href="mailto:{{ site.email }}">
+            <i class="fa fa-envelope fa-lg"></i>
+          </a>
+        </li>
+        {% endif %}
+        {% if site.pinterest %}
+        <li>
+          <a class="btn btn-default btn-sm" href="https://pinterest.com/{{ site.pinterest }}">
+            <i class="fa fa-pinterest fa-lg"></i>
+          </a>
+        </li>
+        {% endif %}
+        {% if site.linkedin %}
+        <li>
+          <a class="btn btn-default btn-sm" href="https://linkedin.com/in/{{ site.linkedin }}">
+            <i class="fa fa-linkedin fa-lg"></i>
+          </a>
+        </li>
+        {% endif %}
+        <li>
+          <a class="btn btn-default btn-sm" href="{{ site.BASE_PATH }}/feed.xml">
+            <i class="fa fa-rss fa-lg"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
   <div class="posts card">
       <div class="card-content white-text">
