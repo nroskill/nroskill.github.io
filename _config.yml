@@ -5,7 +5,7 @@ email: nroskill@gmail.com
 twitter_username: nroskill
 github_username:  nroskill
 # 链接格式
-permalink: /:categories/:title
+permalink: /:title
 # 插件
 gems: [jekyll-paginate]
 # markdown解析器
